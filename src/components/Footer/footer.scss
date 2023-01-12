@@ -1,0 +1,27 @@
+@import '../../styles/variables.scss';
+
+footer {
+	display: flex;
+	// flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin-top: auto;
+	// padding-block: 1rem;
+	height: 80px;
+	border-top: 1px solid $clr-shades-grey;
+	// color: $clr-shades-neon-blue;
+	background-color: black;
+	overflow: hidden;
+}
+
+p {
+	margin: 0;
+}
+
+@media (max-width: 500px) {
+	footer {
+		flex-direction: column;
+		gap: 0;
+	}
+}

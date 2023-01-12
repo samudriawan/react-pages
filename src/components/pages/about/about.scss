@@ -1,0 +1,22 @@
+@import '../../../styles/variables.scss';
+
+.tech-icons-wrapper {
+	display: flex;
+	justify-content: space-around;
+	gap: 1.5rem;
+	flex-wrap: wrap;
+	z-index: -1;
+}
+
+.tech-icon {
+	display: inline-block;
+	vertical-align: middle;
+	opacity: 0.7;
+	transition: opacity 100ms ease-in-out;
+	z-index: 1;
+}
+
+.tech-icon:hover {
+	opacity: 1;
+	text-shadow: 0 0 16px lightgrey;
+}
